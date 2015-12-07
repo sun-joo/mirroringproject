@@ -1,9 +1,15 @@
+#-*-coding: utf-8 -*-
+
+from unidecode import unidecode
 from HTMLParser import HTMLParser
 from htmlentitydefs import name2codepoint
 import os
 import re
 import sys
+from urllib import urlopen
 import urllib2
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 class PageParser(HTMLParser):
 
@@ -92,7 +98,7 @@ class PageParser(HTMLParser):
     def handle_entityref(self, name):
 
         c = unichr(name2codepoint[name])
-        self.html += c
+        self.html += unidecode(c)
 
 
 
@@ -100,13 +106,13 @@ class PageParser(HTMLParser):
 
         if name.startswith('x'):
 
-            c = unichr(int(name[1:], 16))
+            c = unicode(int(name[1:], 16))
 
         else:
 
-            c = unichr(int(name))
+            c = unicode(int(name))
 
-        self.html += c
+        self.html += unidecode(c)
 
 
 
@@ -145,7 +151,7 @@ class Page(object):
         filename = filepath[-1]
         f = open(filename, 'w')
         print "Processing:" , url
-        r = urllib2.urlopen(url)
+        r = urlopen(url)
 
         if ".html" in filename:
 
