@@ -1,0 +1,1244 @@
+
+
+
+
+    
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko" >
+<head >
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2, user-scalable=yes" >
+<title >????????? ????</title>    
+<link rel="shortcut icon" href="/images/favicon.ico" >
+<link rel="stylesheet" href="/css/rwd/default.css" />
+<link rel="stylesheet" href="/css/rwd/common.css" />
+<link rel="stylesheet" href="/css/rwd/main.css" />
+<script src="/js/rwd/jquery-1.9.0.min.js" ></script>
+<script src="/js/rwd/jquery.easing.1.3.js" ></script>
+<script src="/js/rwd/jquery.smooth-scroll.min.js" ></script>
+<script src="/js/rwd/jquery.parallax-1.1.3.js" ></script>
+<script src="/js/rwd/jquery.cycle.all.js" ></script>
+<script src="/js/rwd/jquery.cookie.js" ></script>
+<script src="/js/rwd/common.js" ></script>
+<script src="/js/script.js" ></script>
+<!--[if lt IE 9]> 
+	<script type="text/javascript">
+		document.createElement("header"); document.createElement("nav"); document.createElement("section"); document.createElement("article"); document.createElement("footer");
+	</script>
+	<script src="/js/rwd/respond.min.js"></script>
+<![endif]-->
+<script >
+function gosite(selectId){
+	if(document.getElementById(selectId).value==""){
+		alert("??? ???? ??????.");
+		return false;
+	}
+	//window.location.href=document.getElementById(selectId).value;
+	$("#"+selectId).parent('li').find('a').attr("href",document.getElementById(selectId).value);
+	return true;
+}
+</script>
+</head>
+<body onload="menuLoad()" >
+<div id="skipNavi" > <a href="#gnb" >???? ????</a> <a href="#contents" >?? ????</a> <a href="#footer" >???? ????</a> </div>
+<div id="wrap" >
+
+
+	<!-- header -->
+			
+
+
+
+
+
+
+
+	
+	<!-- header -->
+	<div id="header_wrap" >		
+		<div id="header" >
+			<noscript >
+			?? ????? ?? ?? ?????. 
+			????? ???? ???? ???? ??? ????? ????.
+			???? ??? ?????.
+			</noscript>
+			<h1 ><a href="/kor.do" ><span >KOREATECH ?????????</span></a></h1>			
+			<div class="top_menu" >
+				<dl >
+					<dt >? ????</dt>
+					<dd ><a href="/kor.do" class="home" >HOME</a></dd>
+
+
+
+                 <!--dd><a href="/kor/sitemap_12.do" class="login">LOGIN</a></dd-->
+                 <dd ><a href="https://www.koreatech.ac.kr/kor/sitemap_12.do" class="login" >LOGIN</a></dd>
+
+
+					<dd ><a href="https://email.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ?????? ????? ?????." class="webmail" >WEBMAIL</a></dd>
+					<dd ><a href="/kor/sitemap_11.do" class="sitemap" >SITEMAP</a></dd>
+					<dd ><a href="/eng.do" title="??? ???? English ????? ?????." target="_blank" class="english" >ENGLISH</a></dd>
+					<dd ><a href="/chi.do" title="??? ???? ??? ????? ?????." target="_blank" class="chinese" >CHINESE</a></dd>
+					
+	
+					<dd ><label for="total_search_input" class="hidden" >???? ???</label><form name="searchSForm" method="post" accept-charset="euc-kr" action="/kor/new_2010/search/search.jsp" onsubmit="eucKrEncodng();" ><input type="hidden" name="startCount" value="0" /><input type="text" name="query" id="total_search_input" title="???? ??????." class="total_search_input" /><input type="image" src="/images/rwd/common/serach_btn.png" alt="??" /></form></dd>
+
+					<dd ><span ><a href="http://www.facebook.com/koreatech91" class="facebook" target="_blank" title="??? ???? ?? facebook ????? ?????." >facebook</a></span><span ><a href="http://cafe.daum.net/enkut" class="daum" target="_blank" title="??? ???? ?? daum ????? ?????." >daum</a></span><span ><a href="http://cafe.naver.com/kutzzang.cafe" class="naver" target="_blank" title="??? ???? ?? naver ????? ?????." >naver</a></span><span ><a href="http://www.youtube.com/user/thekoreatech?feature=results_main" class="youtube" target="_blank" title="??? ???? ?? youtube ????? ?????." >youtube</a></span></dd>
+				</dl>
+			</div>
+ 
+			<ul class="gnb" id="gnb" >
+<li > <a href="#" class="menu_01" >????</a>
+<div class="sub_menu menu_01" >
+<h2 ><a href="#" >????</a></h2>
+<div class="sub gnbBg1" > <span >???? ???? ???? KOREATECH ??? ??!</span>
+<ul >
+<li >
+<ul >
+<li ><a href="/kor/sub01_01_01.do" target="_self" >KOREATECH??</a></li>
+<li ><a href="/kor/sub01_02_01.do" target="_self" >???</a></li>
+<li ><a href="/kor/sub01_03_02.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub01_04.do" target="_self" >VISION2020</a></li>
+</ul>
+</li>
+<li >
+<ul >
+<li ><a href="/kor/sub01_05_01.do" target="_self" >KOREATECH20?</a></li>
+<li ><a href="/kor/sub01_06_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub01_07_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub01_10_01.do" target="_self" >??????</a></li>
+</ul>
+</li>
+<li >
+<ul >
+<li ><a href="/kor/sub01_11_08_01.do" target="_self" >????????</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ><a href="/kor/sub01_04.do" ><img src="/images/rwd/common/gnb_event_bn01.png" alt="VISION 2020 ?? ??? ????? ??????? ??? ?? ??" /></a></div>
+ 
+</div>
+</div>
+</li>
+<li > <a href="#" class="menu_02" >????</a>
+<div class="sub_menu menu_02" >
+<h2 ><a href="#" >????</a></h2>
+<div class="sub gnbBg2" > <span >???? ??? ??? ?? KOREATECH ????! ????!</span>
+<ul >
+<li >
+<ul >
+<li ><a href="/admission.do" target="_self" >??</a></li>
+<li ><a href="/grd/sub02_01_01_01.do" target="_self" >???</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." ><img src="/images/rwd/common/gnb_event_bn02.png" alt="???? ??? ?? ?? ???? ?????." /></a></div>
+ 
+</div>
+</div>
+</li>
+<li > <a href="#" class="menu_03" >??/???</a>
+<div class="sub_menu menu_03" >
+<h2 ><a href="#" >??/???</a></h2>
+<div class="sub gnbBg3" > <span >??/??? ??? ???? ??  KOREATECH ???? 1? ??</span>
+<ul >
+<li >
+<ul >
+<li ><a href="/kor/sub03_01_01_01.do" target="_self" >??</a></li>
+<li ><a href="/grd.do" target="_self" >???</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ><a href="/kor/sub03_01_01_01.do" ><img src="/images/rwd/common/gnb_event_bn03.png" alt="???? KOREATECH? ??? ??? ????." /></a></div>
+ 
+</div>
+</div>
+</li>
+<li > <a href="#" class="menu_04" >????</a>
+<div class="sub_menu menu_04" >
+<h2 ><a href="#" >????</a></h2>
+<div class="sub gnbBg4" > <span >???? ????? ??? ???? ???? KOREATECH</span>
+<ul >
+<li >
+<ul >
+<li ><a href="/prog/schedule/kor/sub04_01_01_01/1/haksa.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub04_02_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub04_03_01_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub04_04_01.do" target="_self" >?????</a></li>
+</ul>
+</li>
+<li >
+<ul >
+<li ><a href="/kor/sub04_05_01_01.do" target="_self" >????</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ><a href="/kor/sub04_03_01.do" ><img src="/images/rwd/common/gnb_event_bn04.png" alt="?? ?? ??? ???? ??? ?? ??,? ???? ?????." /></a></div>
+ 
+</div>
+</div>
+</li>
+<li > <a href="#" class="menu_05" >????</a>
+<div class="sub_menu menu_05" >
+<h2 ><a href="#" >????</a></h2>
+<div class="sub gnbBg5" > <span >????  ??! ??! ??! ??? ??? 1?, ??? 1? KOREATECH</span>
+<ul >
+<li >
+<ul >
+<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do" target="_self" >????</a></li>
+<li ><a href="/prog/tuBoard/416/kor/sub05_02_01/if.do" target="_self" >?????</a></li>
+<li ><a href="/prog/tuBoard/365/kor/sub05_03_01/if.do" target="_self" >???</a></li>
+<li ><a href="/prog/poll/kor/sub05_04/list.do" target="_self" >????</a></li>
+</ul>
+</li>
+<li >
+<ul >
+<li ><a href="/prog/tuBoard/369/kor/sub05_05/if.do" target="_self" >??????(????)</a></li>
+<li ><a href="/prog/tuBoard/469/kor/sub05_06/if.do" target="_self" >??????(???)</a></li>
+<li ><a href="/prog/tuBoard/472/kor/sub05_09/if.do" target="_self" >?????????(??)</a></li>
+<li ><a href="/cop/bbs/BBSMSTR_000000006000/selectBoardList.do" target="_self" >???? ???</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ><a href="/prog/tuBoard/326/kor/sub05_01_01/list.do" ><img src="/images/rwd/common/gnb_event_bn05.png" alt="???? KOREATECH? ??????????? ???????." /></a></div>
+ 
+</div>
+</div>
+</li>
+<li > <a href="#" class="menu_06" >????</a>
+<div class="sub_menu menu_06" >
+<h2 ><a href="#" >????</a></h2>
+<div class="sub gnbBg6" > <span >???? ???? NO.1 ?????? KOREATECH</span>
+<ul >
+<li >
+<ul >
+<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php" target="_blank" >KOREATECH NEWS</a></li>
+<li ><a href="/kor/sub06_02_01.do" target="_self" >?????</a></li>
+<li ><a href="/cop/bbs/BBSMSTR_000000000466/selectBoardList.do" target="_self" >KOREATECH ????</a></li>
+<li ><a href="/prog/photo/write.do" target="_self" >?????</a></li>
+</ul>
+</li>
+<li >
+<ul >
+<li ><a href="/prog/eBodo/list.do" target="_self" >???????</a></li>
+<li ><a href="/prog/eBook/list.do" target="_self" >?????</a></li>
+<li ><a href="/cybertour/" target="_blank" >?????</a></li>
+<li ><a href="/kor/sub06_08_01.do" target="_self" >?????</a></li>
+</ul>
+</li>
+<li >
+<ul >
+<li ><a href="/prog/brochure/list.do" target="_self" >?????</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ><a href="/kor/sub06_02_01.do" ><img src="/images/rwd/common/gnb_event_bn06.png" alt="????? KOREATECH? ???? ??? ????? ?????." /></a></div>
+ 
+</div>
+</div>
+</li>
+<li > <a href="#" class="menu_07" >????</a>
+<div class="sub_menu menu_07" >
+<h2 ><a href="#" >????</a></h2>
+<div class="sub gnbBg7" > <span >???? ??? ???? ?????? KOREATECH</span>
+<ul >
+<li >
+<ul >
+<li ><a href="/kor/sub07_01_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub07_03.do" target="_self" >???????</a></li>
+<li ><a href="/kor/sub07_02_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub07_04_01.do" target="_self" >?????? ??</a></li>
+</ul>
+</li>
+</ul>
+<div class="gnb_event_bn" ></div>
+</div>
+</div>
+</li>
+
+			</ul> 
+		</div> 
+		<!-- rwd_header -->
+		<div id="rwd_header" >	
+			<h1 ><a href="/kor.do" ><span >KOREATECH ?????????</span></a></h1>
+			<div class="rwd_gnb_btn" ><a href="#global_navigation" ><img src="/images/rwd/common/rwd_gnb_btn.png" alt="??? ?????" /></a></div>			
+			<div class="rwd_search_btn" ><a href="/kor/new_2010/search/search.jsp" ><img src="/images/rwd/common/rwd_search_btn.png" alt="????" /></a></div>			
+			<script src="/js/rwd/content.js" ></script>
+			<link href="/js/rwd/custom-scrollbar-plugin/jquery.mCustomScrollbar.css" rel="stylesheet" />
+			<script src="/js/rwd/custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js" ></script>
+			<div id="mobile_gnb_wrap" >
+				<div id="mobile_gnb_con" >
+					<ul id="mobile_gnb" name="0" >
+						<li ><a href="/kor/sub01_01_01.do" target="_self" >????</a>
+<ul >
+<li ><a href="/kor/sub01_01_01.do" target="_self" >KOREATECH??</a></li>
+<li ><a href="/kor/sub01_02_01.do" target="_self" >???</a></li>
+<li ><a href="/kor/sub01_03_02.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub01_04.do" target="_self" >VISION2020</a></li>
+<li ><a href="/kor/sub01_05_01.do" target="_self" >KOREATECH20?</a></li>
+<li ><a href="/kor/sub01_06_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub01_07_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub01_10_01.do" target="_self" >??????</a></li>
+<li ><a href="/kor/sub01_11_08_01.do" target="_self" >????????</a></li>
+</ul>
+</li>
+<li ><a href="/kor/sub02_01.do" target="_self" >????</a>
+<ul >
+<li ><a href="/admission.do" target="_self" >??</a></li>
+<li ><a href="/grd/sub02_01_01_01.do" target="_self" >???</a></li>
+</ul>
+</li>
+<li ><a href="/kor/sub03_01_01_01.do" target="_self" >??/???</a>
+<ul >
+<li ><a href="/kor/sub03_01_01_01.do" target="_self" >??</a></li>
+<li ><a href="/grd.do" target="_self" >???</a></li>
+</ul>
+</li>
+<li ><a href="/prog/schedule/kor/sub04_01_01_01/1/haksa.do" target="_self" >????</a>
+<ul >
+<li ><a href="/prog/schedule/kor/sub04_01_01_01/1/haksa.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub04_02_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub04_03_01_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub04_04_01.do" target="_self" >?????</a></li>
+<li ><a href="/kor/sub04_05_01_01.do" target="_self" >????</a></li>
+</ul>
+</li>
+<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do" target="_self" >????</a>
+<ul >
+<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do" target="_self" >????</a></li>
+<li ><a href="/prog/tuBoard/416/kor/sub05_02_01/if.do" target="_self" >?????</a></li>
+<li ><a href="/prog/tuBoard/365/kor/sub05_03_01/if.do" target="_self" >???</a></li>
+<li ><a href="/prog/poll/kor/sub05_04/list.do" target="_self" >????</a></li>
+<li ><a href="/prog/tuBoard/369/kor/sub05_05/if.do" target="_self" >??????(????)</a></li>
+<li ><a href="/prog/tuBoard/469/kor/sub05_06/if.do" target="_self" >??????(???)</a></li>
+<li ><a href="/prog/tuBoard/472/kor/sub05_09/if.do" target="_self" >?????????(??)</a></li>
+<li ><a href="/cop/bbs/BBSMSTR_000000006000/selectBoardList.do" target="_self" >???? ???</a></li>
+</ul>
+</li>
+<li ><a href="/kor/sub06_01.do" target="_self" >????</a>
+<ul >
+<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php" target="_blank" >KOREATECH NEWS</a></li>
+<li ><a href="/kor/sub06_02_01.do" target="_self" >?????</a></li>
+<li ><a href="/cop/bbs/BBSMSTR_000000000466/selectBoardList.do" target="_self" >KOREATECH ????</a></li>
+<li ><a href="/prog/photo/write.do" target="_self" >?????</a></li>
+<li ><a href="/prog/eBodo/list.do" target="_self" >???????</a></li>
+<li ><a href="/prog/eBook/list.do" target="_self" >?????</a></li>
+<li ><a href="/cybertour/" target="_blank" >?????</a></li>
+<li ><a href="/kor/sub06_08_01.do" target="_self" >?????</a></li>
+<li ><a href="/prog/brochure/list.do" target="_self" >?????</a></li>
+</ul>
+</li>
+<li ><a href="/kor/sub07_01_01.do" target="_self" >????</a>
+<ul >
+<li ><a href="/kor/sub07_01_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub07_03.do" target="_self" >???????</a></li>
+<li ><a href="/kor/sub07_02_01.do" target="_self" >????</a></li>
+<li ><a href="/kor/sub07_04_01.do" target="_self" >?????? ??</a></li>
+</ul>
+</li>
+
+					</ul>
+					<div class="mob_top_menu" style="margin-bottom:50px;" >
+						<dl >
+							<dt >? ????</dt>
+							<!-- dd><a href="/kor/sitemap_12.do" class="login">LOGIN</a></dd-->
+							<dd ><a href="https://www.koreatech.ac.kr/kor/sitemap_12.do" class="login" >LOGIN</a></dd>
+							<dd ><a href="https://email.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ?????? ????? ?????." class="webmail" >WEBMAIL</a></dd>
+							<dd ><a href="/eng.do" title="??? ???? English ????? ?????." target="_blank" class="english" >ENGLISH</a></dd>
+							<dd ><a href="/chi.do" title="??? ???? English ????? ?????." target="_blank" class="chinese" >CHINESE</a></dd>
+							<dd >
+								<span ><a href="http://www.facebook.com/koreatech91" class="facebook" target="_blank" title="??? ???? ?? facebook ????? ?????." >facebook</a></span><span ><a href="http://cafe.daum.net/enkut" class="daum" target="_blank" title="??? ???? ?? daum ????? ?????." >daum</a></span><span ><a href="http://cafe.naver.com/kutzzang.cafe" class="naver" target="_blank" title="??? ???? ?? naver ????? ?????." >naver</a></span><span ><a href="http://www.youtube.com/user/thekoreatech?feature=results_main" class="youtube" target="_blank" title="??? ???? ?? youtube ????? ?????." >youtube</a></span>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			
+				
+				
+		</div>
+		<!-- //rwd_header -->
+	</div>
+	<!-- //header -->
+
+  
+	<!-- //header -->
+
+	<!-- event_pop -->
+	<article class="slide_pop_wrap" id="contents" >
+		<div class="slide_pop" >
+			<a href="#preview" title="????" onclick="banner.prev();" class="prev_btn" >??</a>
+			<div id="slide_pop_hidden" >
+				<ul id="slide_pop_list" >
+								
+	
+
+
+
+	 
+
+<li ><a href="http://www.koreatech.ac.kr/admission/sub01_04.do" target="_blank" title="2016 ?? ???????(11.20) ???? ???? ????." ><img src="/uloads_clone/popupZone/POZ_201511190347438020.png" alt="2016 ?? ???????(11.20)" style="width:px;height:px" /></a></li><li ><a href="/prog/photo/write.do" title="????" ><img src="/uloads_clone/popupZone/POZ_201404010923110320.png" alt="????" style="width:px;height:px" /></a></li><li ><a href="" title="?????" ><img src="/uloads_clone/popupZone/POZ_201409160648222960.png" alt="?????" style="width:px;height:px" /></a></li><li ><a href="http://www.gov30.go.kr/" target="_blank" title="??3.0 ???? ???? ????." ><img src="/uloads_clone/popupZone/POZ_201402270349204220.png" alt="??3.0" style="width:px;height:px" /></a></li>
+
+
+								
+					<!-- 				
+					<li><img src="../../images/rwd/main/slide_pop_img01.png" alt="?? ?? ??? 81.8% (2013.8.29 ??? ??)" /></li>
+					<li><img src="../../images/rwd/main/slide_pop_img02.png" alt="???? ?? ??? ??, ??? ???" /></li>
+					<li><img src="../../images/rwd/main/slide_pop_img03.png" alt="??? ????? ?? ?? 3.0" /></li>
+					 -->
+				</ul>
+			</div>
+			<a href="#next" title="????" onclick="banner.next();" class="next_btn" >??</a>
+			<script type="text/javascript" >
+			//<![CDATA[
+				var banner = new tickerRotation();
+				banner.objName = 'banner';
+				banner.scrollDirection = 'indirection';
+				banner.setScrollType('vertical');
+				banner.autoScroll = 'auto'; //none 
+				banner.scrollGap = 3000;
+				banner.listNum = 3; // ??? ?? ??? ??
+				banner.wrapId = "slide_pop_hidden"; // ?? ??? ?? div id?
+				banner.listId = "slide_pop_list"; // ?? ??? ul id?<u></u>
+				banner.btnNext = "prev";
+				banner.btnPrev = "next";
+				banner.btnStop = "stop";
+				banner.initialize();
+
+
+			//]]>
+			</script>
+			<div class="slide_pop_close" ><a href="#" >????</a></div>
+		</div>
+		<div class="slide_pop_open" ><a href="#" >????</a></div>
+	</article>
+	<!-- //event_pop -->
+	<!-- main visual -->
+	<div id="main_section" >
+		<div class="event_pop_wrap" >
+			<section class="event_pop" >
+			
+			  
+				<!-- PEOPLE -->
+				<article class="layer_pop" >
+				
+					<span class="layer_open_btn" ><a href="#layer_pop_open" title="PEOPLE ??" >???</a></span>
+					<span class="layer_open_btn2" ><a href="#layer_pop_open" title="PEOPLE ??" >?????</a></span>
+					<span class="layer_open_btn3" ><a href="#layer_pop_open" title="PEOPLE ??" >???</a></span>
+					<span class="layer_open_btn4" ><a href="#layer_pop_open" title="PEOPLE ??" >???</a></span>
+					
+					
+					<div class="layer_content" >	
+						<div class="tabmenu people_tab" ><span class="more_btn" ><a href="http://www.koreatech.ac.kr/html/kor/koreatech.html" onclick="window.open(this.href, '_blank', 'width=1010,height=720,toolbars=no,scrollbars=no'); return false;" title="people??" >?????</a></span>
+							<dl >
+							
+								<dt class="layer_tab01" ><a href="#tab" >???</a></dt>
+								<dd >
+									<ul >
+										<li ><a href="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" target="_blank" title="??? ???? ????????? ????? ????? ?????." class="link01" >???????</a></li>
+										<li ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." class="link02" >???</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link03" >???? S/W</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link04" >?????</a></li>
+										<li ><a href="http://help.kut.ac.kr/" target="_blank" title="??? ???? ???? ????? ?????." class="link05" >????</a></li>
+										<li ><a href="http://coop.koreatech.ac.kr/dining/menu.php" target="_blank" title="??? ???? ??? ?? ????? ?????." class="link06" >??? ??</a></li>
+										<li ><a href="/prog/tuBoard/417/kor/sub04_04_15/list.do" class="link07" >??????</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ??????? ????? ?????." class="link08" >???????</a></li>
+										<li ><a href="/kor/sub04_04_02.do" class="link09" >???????</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link10" >?????</a></li>
+										<li ><a href="/kor/sub04_04_07.do" class="link11" >?????</a></li>
+										<li ><a href="http://ipp.koreatech.ac.kr" target="_blank" title="??? ???? ????????? IPP?? ????? ?????." class="link12" >IPP??</a></li>
+									</ul>
+								</dd>
+								<dt class="layer_tab02" ><a href="#tab" >?????</a></dt>
+								<dd > 
+									<ul class="type02" >
+										<li ><a href="/admission.do" target="_blank" title="??? ????????? ???? ????? ?????." class="link01_2" >????</a></li>
+										<li ><a href="/kor/sub03_01_01_01.do" class="link02_2" >????</a></li>
+										<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php" target="_blank" title="??? ???? ????????? ????? ????? ?????." class="link10_2" >????</a></li>
+										<li ><a href="/kor/sub06_02_01.do" target="_blank" title="??? ???? ????????? ????? ???? ?????." class="link11_2" >?????</a></li>
+										<li ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." class="link05_2" >???</a></li>
+										<li ><a href="http://gec.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ?????? ????? ?????." class="link06_2" >??????</a></li>
+										<li ><a href="/kor/sub04_02_01.do" class="link07_2" >????</a></li>
+										<li ><a href="/kor/sub04_03_01.do" class="link08_2" >????</a></li>
+										<li ><a href="/prog/person/kor/sub01_06_02/list.do" class="link09_2" >??????</a></li>										
+										<li ><a href="/kor/sub06_08_01.do" class="link03_2" >?????</a></li>
+										<li ><a href="/kor/sub01_01_06_01.do" class="link04_2" >??????</a></li>
+										<li ><a href="/prog/photo/write.do" class="link12_2" >?????</a></li>
+									</ul>
+								</dd>
+								<dt class="layer_tab03" ><a href="#tab" >???</a></dt>
+								<dd > 
+									<ul class="type03" >
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link01_3" >????</a></li>
+										<li ><a href="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" target="_blank" title="??? ???? ????????? ????? ????? ?????." class="link09_3" >???????</a></li>
+										<li ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." class="link02_3" >???</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link03_3" >???? S/W</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link04_3" >?????</a></li>
+										<li ><a href="http://help.kut.ac.kr/" target="_blank" title="??? ???? ???? ????? ?????." class="link05_3" >????</a></li>
+										<li ><a href="http://coop.koreatech.ac.kr/dining/menu.php" target="_blank" title="??? ???? ??? ?? ????? ?????." class="link06_3" >??? ??</a></li>
+										<li ><a href="/prog/tuBoard/417/kor/sub04_04_15/list.do" class="link07_3" >??????</a></li>
+										<li ><a href="/kor/sub04_04_02.do" class="link08_3" >???????</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/" target="_blank" title="??? ???? ????(RFID) ????? ?????." class="link10_3" >????(RFID)</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." class="link11_3" >??????</a></li>
+										<li ><a href="http://www2.koreatech.ac.kr/edugangbi/main.jsp" target="_blank" title="??? ???? ????????? ?????? ????? ?????." class="link12_3" >??????</a></li>
+									</ul>
+								</dd>
+								<dt class="layer_tab04" ><a href="#tab" >???</a></dt>
+								<dd > 
+									<ul class="type04" >
+										<li ><a href="/kor/sub01_01_01.do" title="??? ????????? ?????? ???? ?????." class="link01_4" >??????</a></li>
+										<li ><a href="/kor/sub01_04.do" title="??? ????????? VISION 2020 ???? ?????." class="link02_4" >VISION 2020</a></li>
+										<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php" target="_blank" title="??? ???? ????????? ???? ???? ?????." class="link08_4" >????</a></li>
+										<li ><a href="/kor/sub03_01_01_01.do" title="??? ????????? ???? ???? ?????." class="link03_4" >????</a></li>
+										<li ><a href="http://www.koreatech.ac.kr/grd/sub01_01.do" target="_blank" title="??? ???? ????????? ????? ???? ?????." class="link04_4" >?????</a></li>
+										<li ><a href="/kor/sub06_08_01.do" title="??? ????????? ????? ???? ?????." class="link05_4" >?????</a></li>
+										<li ><a href="/kor/sub01_01_06_01.do" title="??? ????????? ?????? ???? ?????." class="link06_4" >??????</a></li>
+										<li ><a href="/prog/person/kor/sub01_06_02/list.do" title="??? ????????? ?????? ???? ?????." class="link07_4" >??????</a></li>							
+										<li ><a href="http://elti.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ??????? ????? ?????." class="link09_4" >???????</a></li>
+										<li ><a href="http://hrdi.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ??????? ????? ?????." class="link10_4" >???????</a></li>
+										<li ><a href="http://www.ksqa.or.kr/" target="_blank" title="??? ???? ????????? ????????? ????? ?????." class="link11_4" >????</br>?????</a></li>
+										<li ><a href="http://www.e-koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ???????? ????? ?????." class="link12_4" >????????</a></li>
+									</ul>
+								</dd>
+							</dl> 
+							<div class="people_tab" ><a href="/kor/sub01_01_07_01.do" >BUS</a></div>
+						</div>
+	
+						
+						<div class="layer_close_btn" ><a href="#layer_pop_close" title="PEOPLE ??" >??</a></div>	
+					</div>				
+					
+				</article>
+		
+		
+		
+		
+				
+				
+				<!-- BUS -->
+				<div class="photo_link" ><a href="/kor/sub01_01_07_01.do" >BUS</a></div> 
+				<!-- //BUS -->
+				
+			</section>			
+		</div>	
+		
+			<article class="mob_layer_pop02" >
+					<span class="layer_open_btn" ><a href="#layer_pop_open" title="PEOPLE ??" >???</a></span>					
+					<span class="layer_open_btn2" ><a href="#layer_pop_open" title="PEOPLE ??" >?????</a></span>
+					<span class="layer_open_btn3" ><a href="#layer_pop_open" title="PEOPLE ??" >???</a></span>
+					<span class="layer_open_btn4" ><a href="#layer_pop_open" title="PEOPLE ??" >???</a></span>
+					
+					
+					
+					<div class="mob_layer_content02" >	
+						<div class="tabmenu mob_people_tab" >
+							<dl >
+								<dt class="layer_tab01" ><a href="#tab" ><span >???</span></a></dt>
+								<dd >
+									<ul >
+										<li ><a href="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" target="_blank" title="??? ???? ????????? ????? ????? ?????." >???????</a></li>
+										<li ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." >???</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >???? S/W</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >?????</a></li>
+										<li ><a href="http://help.koreatech.ac.kr/" target="_blank" title="??? ???? ???? ????? ?????." >????</a></li>
+										<li ><a href="http://coop.koreatech.ac.kr/dining/menu.php" target="_blank" title="??? ???? ??? ?? ????? ?????." >??? ??</a></li>
+										<li ><a href="/cop/bbs/BBSMSTR_000000000453/selectBoardList.do" class="link07" >??????</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ??????? ????? ?????." >???????</a></li>
+										<li ><a href="/kor/sub04_04_02.do" class="link09" >???????</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >?????</a></li>
+										<li ><a href="/kor/sub04_04_07.do" >?????</a></li>
+										<li ><a href="http://ipp.koreatech.ac.kr" target="_blank" title="??? ???? ????????? IPP?? ????? ?????." >IPP??</a></li>
+									</ul>
+								</dd>
+								<dt class="layer_tab02" ><a href="#tab" ><span >?????</span></a></dt>
+								<dd > 
+									<ul >
+										<li ><a href="/admission.do" target="_blank" title="??? ????????? ???? ????? ?????." >????</a></li>
+										<li ><a href="/kor/sub03_01_01_01.do" >????</a></li>
+										<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php" target="_blank" title="??? ???? ????????? ????? ????? ?????." >????</a></li>
+										<li ><a href="/kor/sub06_02_01.do" target="_blank" title="??? ???? ????????? ????? ???? ?????." >?????</a></li>
+										<li ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." >???</a></li>
+										<li ><a href="http://gec.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ?????? ????? ?????." >??????</a></li>
+										<li ><a href="/kor/sub04_02_01.do" >????</a></li>
+										<li ><a href="/kor/sub04_03_01.do" >????</a></li>
+										<li ><a href="/prog/person/kor/sub01_06_02/list.do" >??????</a></li>
+										<li ><a href="/kor/sub06_08_01.do" >?????</a></li>
+										<li ><a href="/kor/sub01_01_06_01.do" >??????</a></li>
+										<li ><a href="/prog/photo/write.do" >?????</a></li>
+									</ul>
+								</dd>
+								<dt class="layer_tab03" ><a href="#tab" ><span >???</span></a></dt>
+								<dd > 
+									<ul >
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >????</a></li>
+										<li ><a href="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" target="_blank" title="??? ???? ????????? ????? ????? ?????." >???????</a></li>
+										<li ><a href="http://dorm.koreatech.ac.kr/index.php" target="_blank" title="??? ???? ????????? ??? ????? ?????." >???</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >???? S/W</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >?????</a></li>
+										<li ><a href="http://help.koreatech.ac.kr/" target="_blank" title="??? ???? ???? ????? ?????." >????</a></li>
+										<li ><a href="http://coop.koreatech.ac.kr/dining/menu.php" target="_blank" title="??? ???? ??? ?? ????? ?????." >??? ??</a></li>
+										<li ><a href="/cop/bbs/BBSMSTR_000000000453/selectBoardList.do" >??????</a></li>
+										<li ><a href="/kor/sub04_04_02.do" >???????</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/" target="_blank" title="??? ???? ????(RFID) ????? ?????." >????(RFID)</a></li>
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ????????? ???? ????? ?????." >??????</a></li>
+										<li ><a href="http://www.koreatech.ac.kr/edugangbi/main.jsp" target="_blank" title="??? ???? ????????? ?????? ????? ?????." >??????</a></li>
+									</ul>
+								</dd>
+								
+                                	<dt class="layer_tab04" ><a href="#tab" >???</a></dt>
+								<dd > 
+									<ul >
+										<li ><a href="/kor/sub01_01_01.do" title="??? ????????? ?????? ???? ?????." >??????</a></li>
+										<li ><a href="/kor/sub01_04.do" title="??? ????????? VISION 2020 ???? ?????." >VISION 2020</a></li>
+										<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php" target="_blank" title="??? ???? ????????? ???? ???? ?????." >????</a></li>
+										<li ><a href="/kor/sub03_01_01_01.do" title="??? ????????? ???? ???? ?????." >????</a></li>
+										<li ><a href="http://www.koreatech.ac.kr/grd/sub01_01.do" target="_blank" title="??? ???? ????????? ????? ???? ?????." >?????</a></li>
+										<li ><a href="/kor/sub06_08_01.do" title="??? ????????? ????? ???? ?????." >?????</a></li>
+										<li ><a href="/kor/sub01_01_06_01.do" title="??? ????????? ?????? ???? ?????." >??????</a></li>
+										<li ><a href="/prog/person/kor/sub01_06_02/list.do" title="??? ????????? ?????? ???? ?????." >??????</a></li>
+										<li ><a href="http://elti.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ??????? ????? ?????." >???????</a></li>
+										<li ><a href="http://hrdi.koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ??????? ????? ?????." >???????</a></li>
+										<li ><a href="http://www.ksqa.or.kr/" target="_blank" title="??? ???? ????????? ????????? ????? ?????." >?????????</a></li>
+										<li ><a href="http://www.e-koreatech.ac.kr/" target="_blank" title="??? ???? ????????? ???????? ????? ?????." >????????</a></li>
+									</ul>
+								</dd>
+                                
+                          
+							</dl>
+						</div>
+						<div class="layer_close_btn" ><a href="#layer_pop_close" title="PEOPLE ??" >??</a></div>	
+					</div>
+				</article>
+		
+		
+		<div class="visual_wrap" >
+		
+								
+	
+
+
+
+
+
+			<!-- ???? & ??? ???  -->
+			<div class="slideBox" >
+				<p class="slogon" ><span >??? ???? ?? ??? ???? ??? ???? ????? ????? ???? KOREATECH</span></p>
+				<div class="pageControl" >
+<a href="#img01" class="thum active" >1</a>
+
+	
+					<!-- 
+					<a href="#img01" class="thum active">1</a>
+					<a href="#img02" class="thum">2</a>
+					<a href="#img03" class="thum">3</a>
+					<a href="#img04" class="thum">4</a>
+  -->
+					<a href="#play" class="play" style="display:none;" title="???" >??</a>
+					<a href="#stop" class="stop" title="??" >??</a>	
+				</div>
+				<div class="imgBox" >
+ 
+<div id="main_img01" class="cont" style="background:url(/uloads_clone/mainPhoto/PHO_201511121133134870.png) no-repeat center top;" ></div>
+
+<!-- 
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual04.jpg) no-repeat center top;"></div>
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual03.jpg) no-repeat center top;"></div>
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual02.jpg) no-repeat center top;"></div>
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual01.jpg) no-repeat center top;"></div>
+ --> 					
+ 
+				</div>
+			</div>
+			<!--  //???? & ??? ??? -->
+			<!-- ??? ??? -->
+			<div class="mob_visual" >
+				<p class="slogon" ><span >??? ???? ?? ??? ???? ??? ???? ????? ????? ???? KOREATECH</span></p>
+				<!-- a href="#preview" class="btn prev" title="??">??</a-->
+				<div class="visual_slide" >
+					<ul >
+<li style="width:100%; min-height:500px; background:url(/uloads_clone/mainPhoto/PHO_201510260918402761.png) no-repeat center top;" ></li>
+		 
+					</ul>
+				</div>
+				<!-- a href="#next" class="btn next" title="??">??</a-->
+			</div>
+			<!--  //??? ??? -->
+
+
+
+			
+			<!-- ???? & ??? ???  
+			<div class="slideBox">
+				<p class="slogon"><span>??? ???? ?? ??? ???? ??? ???? ????? ????? ???? KOREATECH</span></p>
+				<div class="pageControl">
+					<a href="#img01" class="thum active">1</a>
+					<a href="#img02" class="thum">2</a>
+					<a href="#img03" class="thum">3</a>
+					<a href="#img04" class="thum">4</a>
+ 
+					<a href="#play" class="play" style="display:none;" title="???">??</a>
+					<a href="#stop" class="stop" title="??">??</a>	
+				</div>
+				<div class="imgBox">
+ 
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual04.jpg) no-repeat center top;"></div>
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual03.jpg) no-repeat center top;"></div>
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual02.jpg) no-repeat center top;"></div>
+					<div class="cont" style="background:url(../../images/rwd/main/main_visual01.jpg) no-repeat center top;"></div>
+ 
+				</div>
+			</div>
+			 //???? & ??? ??? -->
+			<!-- ??? ??? 
+			<div class="mob_visual">
+				<p class="slogon"><span>??? ???? ?? ??? ???? ??? ???? ????? ????? ???? KOREATECH</span></p>
+				<a href="#preview" class="btn prev" title="??">??</a>
+				<div class="visual_slide">
+					<ul>
+						<li style="width:100%; min-height:500px; background:url(../../images/rwd/main/mob_visual01.jpg) no-repeat center top;"></li>
+						<li style="width:100%; min-height:500px; background:url(../../images/rwd/main/mob_visual01.jpg) no-repeat center top;"></li>
+						<li style="width:100%; min-height:500px; background:url(../../images/rwd/main/mob_visual01.jpg) no-repeat center top;"></li>
+						<li style="width:100%; min-height:500px; background:url(../../images/rwd/main/mob_visual01.jpg) no-repeat center top;"></li>
+ 
+					</ul>
+				</div>
+				<a href="#next" class="btn next" title="??">??</a>
+			</div>
+			 //??? ??? -->
+		</div>
+		
+		
+			
+		
+		
+		<div class="main_board_wrap" >
+			<section class="board_box" >
+				<!-- ????, ????, ???? ??? -->
+				<article class="board_hidden rwd_board01" >
+					<div class="slide_effect slide_effect_de" >
+						<div class="type_01 tabmenu" >
+							<dl >
+								<dt class="tab01" ><a href="#tab" >????</a></dt>
+								<dd >
+
+ 									<ul >
+									
+									
+										
+											<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=18125" >[????????] e-koreatech ?????? ...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=18124" >[IPP] IPP ???? ?? ???? ?? ?? ?...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=18123" >?? ???? ??? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=18122" >[???? ??]??? 2???(???) ???? ??...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/326/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=18121" >?????/ ???????? ?? ???? ?? ???...</a></li>
+											
+										
+									
+										
+									
+										
+									
+ 
+									</ul>
+									<!-- 	
+									<ul>
+										<li><a href="#link">[????] ?? ?? ???? ?? ????? [????] ?? ?? ???? ?? ????? [????] ?? ?? ???? ?? ?????</a></li>
+										<li><a href="#link">[IPP??] ?3? KOTRA IPP ??? ??</a></li>
+										<li><a href="#link">[IPP??] 2014??? ??? IPP ?? ??[IPP??] 2014??? ??? IPP ?? ??</a></li>
+										<li><a href="#link">[KOREATECH ????] ???? ??? 'THE ...</a></li>
+										<li><a href="#link">[????] ?? ?? ? HRD ???? ??? ??...</a></li>
+										<li><a href="#link">??? ??? ??? ?? ??? ?? ??</a></li>
+									</ul>
+									 -->
+									<p ><a href="/prog/tuBoard/326/kor/sub05_01_01/list.do" title="???? ???" >???</a></p>
+								</dd>
+								<dt class="tab02" ><a href="#tab" >????</a></dt>
+								<dd > 
+
+ 									<ul >
+									
+									
+										
+											<li ><a href="/prog/tuBoard/361/kor/sub05_01_02/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=643" >?????) 2016-1?? ?????? ??? ???...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/361/kor/sub05_01_02/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=642" >2015-2?? ????? 2?? ???? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/361/kor/sub05_01_02/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=641" >2015-2?? ?????(?) ???? ??? ???...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/361/kor/sub05_01_02/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=640" >2015? ???????? ??? ???? ??????...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/361/kor/sub05_01_02/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=639" >???,?? ????</a></li>
+											
+										
+									
+										
+									
+										
+									
+ 
+									</ul>
+									<p ><a href="/prog/tuBoard/361/kor/sub05_01_02/list.do" title="???? ???" >???</a></p>
+								</dd>
+								<dt class="tab03" ><a href="#tab" >????</a></dt>
+								<!--dd> 
+
+ 									<ul>
+									
+									
+										
+											<li><a href="/prog/tuBoard/360/kor/sub05_01_03/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=3795">AhnLab QA??? ??</a></li>
+											
+										
+									
+										
+											<li><a href="/prog/tuBoard/360/kor/sub05_01_03/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=3794">????(?) ????</a></li>
+											
+										
+									
+										
+											<li><a href="/prog/tuBoard/360/kor/sub05_01_03/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=3793">?????? ?? ? ?? ??</a></li>
+											
+										
+									
+										
+											<li><a href="/prog/tuBoard/360/kor/sub05_01_03/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=3792">???(????) ??? ?? ???? ????</a></li>
+											
+										
+									
+										
+											<li><a href="/prog/tuBoard/360/kor/sub05_01_03/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=3791">??????? ????</a></li>
+											
+										
+									
+										
+									
+										
+									
+ 
+									</ul>
+									<p><a href="/prog/tuBoard/360/kor/sub05_01_03/list.do" title="???? ???">???</a></p>
+								</dd--> <!--Uniboard-->
+                                
+                                <dd >
+                                <ul >
+                                 <iframe name="notice" src="http://job.koreatech.ac.kr/jobs/notice/jobMainNoticeList.do" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+                                 </ul>
+                                 
+                                  <p ><a href="/kor/sub05_0103.do" title="???? ???" >???</a></p>
+                                 <!--p><a href="/prog/tuBoard/360/kor/sub05_01_03/list.do" title="???? ???">???</a></p-->
+                                </dd> <!--???-->
+                                
+                                
+                                
+                                <dt class="tab04" ><a href="#tab" >????</a></dt>
+								<dd >
+
+ 									<ul >
+									
+									
+										
+											<li ><a href="/prog/tuBoard/473/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=88" >[??] 2016??? 1?? ?????? ? ????...</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/473/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=87" >[??] 2015??? 2?? ???? ?? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/473/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=86" >2015??? ?? ????? ???? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/473/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=85" >2015?? ?????? ??? ?? ?? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="/prog/tuBoard/473/kor/sub05_01_01/if.do;jsessionid=1ak85oRJNGhbNa4yageDGsvv0wt73lVJn6jewXBXP8ksJLZ3OhfHfyoLrSAIP02F.www02_servlet_engine1?p_process=view&seq=84" >[???? ????] 2015 ?? ????? ????...</a></li>
+											
+										
+									
+										
+									
+										
+									
+ 
+									</ul>
+									
+									<p ><a href="/prog/tuBoard/473/kor/sub05_01_01/if.do" title="???? ???" >???</a></p>
+								</dd>
+                                
+							</dl>
+						</div>
+					</div>	
+				</article>
+				<!-- ????, ????, ???? ??? -->
+				<!-- KOREATECH NEWS ??? -->
+				<article class="board_hidden rwd_board02" >
+					<div class="slide_effect slide_effect_de" >
+						<div class="type_02 tabmenu" >
+							<dl >
+								<dt class="tab04" >KOREATECH NEWS</dt>
+								<dd >
+									<ul >
+									
+									
+										
+											<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=1&aid=10962&bpage=&stext=" >???? ????? ???? ????</a></li>
+											
+										
+									
+										
+											<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=1&aid=10922&bpage=&stext=" >???? ?SK ?? ?? ???? ????? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=1&aid=10921&bpage=&stext=" >???? ????????, ????? ? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=1&aid=10920&bpage=&stext=" >?????????, ????? ???? ?? ??</a></li>
+											
+										
+									
+										
+											<li ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php?mtnkey=articleview&mkey=scatelist&mkey2=1&aid=10918&bpage=&stext=" >???? ??????, ?? ?????? ??  ???</a></li>
+											
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+										
+									
+ 
+									</ul>
+									<p class="news_btn" ><a href="http://webzine.koreatech.ac.kr/newshome/mtnmain.php?mtnkey=bcatelist&mkey=17" title="KOREATECH NEWS ???" >???</a></p>
+								</dd>
+							</dl>
+						</div>
+					</div>	
+				</article>
+				<!-- KOREATECH NEWS ??? -->
+				<!-- ??? -->
+				<article class="board_hidden rwd_board03" >
+					<div class="slide_effect slide_effect_de" >
+						<div class="type_03 tabmenu" >
+							<p class="popupzone_title" ><strong >???</strong></p>
+							<div class="popupzone" id="popupzone" >
+								<div >
+								
+	
+
+
+
+<a class="page" onclick="eventArea(3)" href="#event3" title="3" >3</a><div class="img" ><a href="http://www.koreatech.ac.kr/cop/bbs/BBSMSTR_000000001030/selectBoardArticle.do?nttId=15257" target="_blank" title="??????? ???? ???? ????." ><img src="/uloads_clone/popupZone/POZ_201511100441399350.png" alt="???????" style="width:462px;height:158px" /></a></div><a class="page" onclick="eventArea(5)" href="#event5" title="5" >5</a><div class="img" ><a href="http://www.koreatech.ac.kr/kor/sub01_11_08_01.do" title="?????????" ><img src="/uloads_clone/popupZone/POZ_201510070235428130.jpg" alt="?????????" style="width:462px;height:158px" /></a></div>
+
+
+								
+								<!-- 
+									<a class="page" onClick="eventArea(1)" href="#event1" title="1">1</a>
+									<div class="img"><a href="#link"><img src="../../images/rwd/main/popupzon_img01.png" alt="" /></a></div>
+									<a class="page" onClick="eventArea(2)" href="#event2" title="2">2</a>
+									<div class="img"><a href="#link"><img src="../../images/rwd/main/popupzon_img01.png" alt="" /></a></div>
+ 								-->									
+								</div>
+								<p class="controller" ><a title="??" class="pause" onclick="pause(); return false;" href="#stop" >??</a> <a title="???" class="resume" onclick="resume(); return false;" href="#play" >???</a> </p>
+							</div>
+						</div>
+					</div>	
+				</article>
+				<!-- ??? -->
+				<!-- cyber tour -->
+				<article class="cyber_tour" >
+					<a href="/cybertour/" target="_blank" title="??? ????  ????????? ????? ????? ?????." ><span >UNIVERSITY OF KOREATECH Cyber Tour</span></a>
+				</article>	
+				<!-- //cyber tour -->
+			</section>
+		</div>	
+		<!-- qucik service -->
+		<section class="main_quick_wrap" >
+			<article class="service_link" >
+				<dl >
+					<dt >???? ???</dt>
+					<dd class="m_01" ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ??????? ????? ?????." >???????</a></dd>
+					<dd class="m_02" ><a href="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" target="_blank" title="??? ???? ????????? ????? ????? ?????." >?????</a></dd>
+					<dd class="m_03" ><a href="/kor/sub04_04_02.do" >???????</a></dd>
+					<dd class="m_04" ><a href="/prog/schedule/kor/sub04_01_01_01/1/haksa.do" >????</a></dd>
+					<dd class="m_05" ><a href="/kor/sub01_11_02.do" >????</a></dd>
+					<dd class="m_06" ><a href="http://dasan.koreatech.ac.kr/guide/Static.ax?page=Use_01" target="_blank" title="??? ???? ????????? ????? ????? ?????." >???????</a></dd>
+					<dd class="m_07" ><a href="/kor/sub03_01_01_01.do" >????</a></dd>
+					<dd class="m_08" ><a href="/kor/sub04_01_06_01.do" >????</a></dd>
+				</dl>
+			</article>
+			<!-- ??? ???? ??? & PEOPLE -->
+				<article class="mob_layer_pop01" >
+					<span class="layer_open_btn" ><a href="#layer_pop_open" title="???? ??? ??" >???? ???</a></span>
+					<div class="mob_layer_content01" >	
+						<div class="tabmenu mob_people_tab02" >
+							<dl >
+								<dt >???? ???</dt>
+								<dd >
+									<ul >
+										<li ><a href="http://portal.koreatech.ac.kr/wps/portal" target="_blank" title="??? ???? ??????? ????? ?????." class="link01" >????<br />???</a></li>
+										<li ><a href="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" target="_blank" title="??? ???? ????????? ????? ????? ?????." class="link02" >???<br />??</a></li>
+										<li ><a href="/kor/sub04_04_02.do" class="link03" >???<br />????</a></li>
+										<li ><a href="/kor/sub04_01_01_01.do" class="link04" >????</a></li>
+										<li ><a href="/kor/sub01_01_04_01.do" class="link05" >????</a></li>
+										<li ><a href="http://dasan.koreatech.ac.kr/guide/Static.ax?page=Use_01" target="_blank" title="??? ???? ????????? ????? ????? ?????." class="link06" >???<br />????</a></li>
+										<li ><a href="/kor/sub03_01_01_01.do" class="link07" >????</a></li>
+										<li ><a href="/kor/sub04_01_06_01.do" class="link08" >????</a></li>
+									</ul>
+								</dd>
+							</dl>
+						</div>
+						<div class="layer_close_btn" ><a href="#layer_pop_close" title="???? ??? ??" >??</a></div>	
+					</div>
+				</article>
+				
+				
+			
+				
+				
+				
+			<!-- //??? ???? ??? & PEOPLE -->
+				<!-- bus -->
+				<article class="bus_btn" ><a href="/kor/sub01_01_07_01.do" ></a></article>
+				<!-- //bus -->
+			<div class="clearfix" ></div>
+		</section>
+		<!-- //qucik service -->
+		<script src="/js/rwd/tab_list.js" ></script>	
+	</div>
+	<!-- footer -->	
+	<footer id="footer_wrap" >
+		<div class="footer_box" id="footer" >
+			<form name="sitelink" method="post" onsubmit="return false;" >
+				<fieldset >
+					<legend >?????</legend>
+					<ul class="relation_site" >
+						<li >
+							<label for="select_link_1" >??/???</label>
+							<select id="select_link_1" title="??/??? ????????." >
+								<option value="" >??/???</option>
+								<option value="http://me.koreatech.ac.kr" >?????</option>
+								<option value="http://mecha.koreatech.ac.kr" >?????????</option>
+								<option value="http://ite.koreatech.ac.kr" >?????????</option>
+								<option value="http://cse.koreatech.ac.kr/" >??????</option>
+								<option value="http://ide.koreatech.ac.kr" >??????</option>
+								<option value="http://arch.koreatech.ac.kr" >?????</option>
+								<option value="http://emc.koreatech.ac.kr" >???????????</option>
+								<option value="http://sim.koreatech.ac.kr" >??????</option>
+								<option value="http://general.koreatech.ac.kr" >????</option>
+								<option value="http://mitce.koreatech.ac.kr" >??IT?????</option>
+                                <option value="http://dual.koreatech.ac.kr" >???????</option>
+                                <option value="http://mae.koreatech.ac.kr" >???????</option>
+								<option value="http://www.koreatech.ac.kr/grd/sub01_04_01.do" >?????</option>
+								<option value="http://www.koreatech.ac.kr/grd/sub01_04_02.do" >????????????</option>
+								<option value="http://www.koreatech.ac.kr/grd/sub01_04_03.do" >IT?????????</option>
+								<option value="http://ceo.koreatech.ac.kr" >???????</option>
+							</select>
+							<span class="relation_btn" ><a href="#relation_site" onclick="return gosite('select_link_1');" title="????????[??]" target="_blank" ><img src="/images/rwd/common/relation_btn.png" alt="GO" /></a></span>
+						</li>
+						<li >
+							<label for="select_link_2" >?????</label>
+							<select id="select_link_2" title="????? ????????." >
+								<option value="" >?????</option>
+								<option value="http://cafe.daum.net/enkut" >?? ????</option>
+								<option value="http://portal.koreatech.ac.kr/wps/portal" >???????</option>
+								<option value="http://el.koreatech.ac.kr/MainPageAction.do?cmd=main" >???????</option>
+								
+								
+								<option value="http://photo.koreatech.ac.kr/_photo_plus/_skin/skin_01/index.asp" >????</option>
+								<option value="http://www.koreatech.or.kr/" >??????</option>
+								<option value="https://email.koreatech.ac.kr/" >???</option>
+								<option value="http://www.work.go.kr/jobyoung/main.do" >??? ??</option>
+								<option value="http://www.work.go.kr/index.jsp" >??? ???</option>
+								<option value="http://www.jobkorea.co.kr/text/main.asp?rp_Stat=1" >????</option>
+								<option value="http://www.saramin.co.kr/zf_user/" >???</option>
+								<option value="http://www.incruit.com/" >????</option>
+							</select>
+							<span class="relation_btn" ><a href="#relation_site" onclick="return gosite('select_link_2');" title="????????[??]" target="_blank" ><img src="/images/rwd/common/relation_btn.png" alt="GO" /></a></span>
+						</li>
+						<li >
+							<label for="select_link_3" >??????</label>
+							<select id="select_link_3" title="?????? ????????." >
+								<option value="" >??????</option>
+								<option value="http://elti.koreatech.ac.kr/lms/" >???????</option>
+								<option value="http://hrdi.koreatech.ac.kr/" >???????</option>
+                                <option value="http://www.ksqa.or.kr" >?????????</option>
+								<option value="http://dasan.koreatech.ac.kr/" >?????</option>
+								
+                                <option value="http://ctl.koreatech.ac.kr/" >?????????</option>
+								<option value="http://sandan.koreatech.ac.kr/" >?????</option>
+								<option value="http://linc.koreatech.ac.kr" >LINC???</option>
+                                
+								<option value="http://coop.koreatech.ac.kr/index.php" >??????</option>
+								<option value="http://dorm.koreatech.ac.kr/index.php?sso=ok" >???</option>
+								<option value="http://gec.koreatech.ac.kr/" >??????</option>
+								<option value="http://icee.koreatech.ac.kr/" >????????</option>
+								
+								
+								
+								<option value=" http://motpsm.koreatech.ac.kr/" >MOT???</option>
+								<option value="http://setec.todaknet.com/" >?????????</option>
+								<option value="http://tti.koreatech.ac.kr/" >??????????</option>
+								<option value="http://hrd.koreatech.ac.kr/" >HRD??</option>
+							
+								<option value="http://counsel.koreatech.ac.kr/" >????????</option>
+								<option value="http://ipp.koreatech.ac.kr/" >IPP??</option>
+                                <option value="http://ippone.koreatech.ac.kr/" >IPP??</option>
+                                <option value=" http://motpsm.koreatech.ac.kr/" >PSM???</option>
+                                <option value="http://cigma.koreatech.ac.kr/" >CIGMA CENTER</option>
+                                <option value="http://www.e-koreatech.ac.kr/" >????????</option>
+                                <option value="http://www.ipphub.or.kr/" >IPP?????</option>
+							</select>
+							<span class="relation_btn" ><a href="#relation_site" onclick="return gosite('select_link_3');" title="????????[??]" target="_blank" ><img src="/images/rwd/common/relation_btn.png" alt="GO" /></a></span>
+						</li>
+						<li >
+							<label for="select_link_4" >??????</label>
+							<select id="select_link_4" title="?????? ????????." >
+								<option value="" >??????</option>
+								<option value="https://cms.kut.ac.kr/user/indexMain.action?siteId=chonghak" >????</option>
+								<option value="http://club.cyworld.com/kutwomen16" >?????</option>
+								<option value="http://www.koreatechclub.co.kr/" >???????</option>
+								<option value="http://cafe.naver.com/kcbs91" >??????</option>
+								<option value="http://town.cyworld.com/kutpress" >??????</option>
+								<option value="http://club.cyworld.com/hankin" >???????</option>
+								<option value="http://club.cyworld.com/KUTdormitory" >??????</option>
+                                <option value="http://khc.kut.ac.kr/" >?????????????????</option>
+								<!--option value="http://cafe.daum.net/kutalbum2008">???-08</option>
+								<option value="http://cafe.daum.net/kutalbum08">???-07</option-->
+							</select>
+							<span class="relation_btn" ><a href="#relation_site" onclick="return gosite('select_link_4');" title="????????[??]" target="_blank" ><img src="../../images/rwd/common/relation_btn.png" alt="GO" /></a></span>
+						</li>
+						<li >
+							<label for="select_link_5" >??????</label>
+							<select id="select_link_5" title="?????? ????????." >
+								<option value="" >??????</option>
+								<option value="http://www.moel.go.kr/" >?????</option>
+								<option value="http://www.mke.go.kr/www/wwwMain/main.do" >???????</option>
+								<option value="http://www.mosf.go.kr/main/main.jsp" >?????</option>
+								<option value="http://www.hrdkorea.or.kr/" >????????</option>
+								<option value="http://www.kopo.ac.kr/" >???????</option>
+								 
+								<option value="https://www.kedi.re.kr/" >???????</option>
+								<option value="http://www.kli.re.kr/kli_home/main/main.jsp" >???????</option>
+								<option value="http://www.kcomwel.or.kr/" >??????</option>
+								<option value="http://www.kosha.or.kr/main.do?chk=1" >??????????</option>
+								<option value="http://www.keis.or.kr/main/www.do" >???????</option>
+								<option value="http://www.krivet.re.kr/ku/index.jsp" >?????????</option>
+								<option value="https://www.kead.or.kr/index.jsp" >???????</option>
+								<option value="http://www.chungnam.net/main.do?site_div_cd=0001&prnt_mnu_cd=CNNMENU00000&gnb_prnt_mnu_cd=CNNMENU00051" >?????</option>
+								<option value="http://www.cheonan.go.kr/portal/index.do?siteCode=1000" >????</option>
+								<option value="http://www.acrc.go.kr/acrc/index.do" >???????</option>
+								<option value="http://www.mest.go.kr/" >???</option>
+								<option value="http://www.ntis.go.kr/" >NTIS</option>
+								<option value="http://e-simsa.or.kr/index.do" >????????</option>
+							</select>
+							<span class="relation_btn" ><a href="#relation_site" onclick="return gosite('select_link_5');" title="????????[??]" target="_blank" ><img src="../../images/rwd/common/relation_btn.png" alt="GO" /></a></span>
+						</li>
+						<li class="mob_footer_menu" >
+							<label for="select_link_6" >Footer link</label>
+							<select id="select_link_6" title="Footer link ????????." >
+								<option value="" >Footer link</option>
+								<option value="/kor/sitemap_14.do" >????????</option>
+								<option value="/kor/sitemap_15.do" >?????????</option>
+								<option value="/kor/sitemap_16.do" >????</option>
+								<option value="/kor/sitemap_17.do" >???????</option> 
+								<option value="http://www.alio.go.kr/alio/main/main.jsp" >???</option>
+                                <option value="http://www.academyinfo.go.kr/UIPISA/uipnh/unt/ipsrch/UntUnvAcdtSrchPupInr.do?schlId=0000189&schlDivCd=02" >?????</option>
+								<option value="http://www.koreatech.ac.kr/kor/info/index.jsp" >??????</option>
+								<option value="" >????????</option>
+								<option value="http://www.koreatech.ac.kr/kor/contents/find_bug_new/bug_intro.jsp" >???????</option>
+							</select>
+							<span class="relation_btn" ><a href="#relation_site" onclick="return gosite('select_link_6');" title="????????[??]" target="_self" ><img src="../../images/rwd/common/relation_btn_mob.png" alt="GO" /></a></span>
+						</li>
+					</ul>
+				</fieldset>
+			</form>
+			<div class="clearfix" ></div>
+			<ul class="footer_menu" >
+				<li ><a href="/kor/sitemap_14.do" class="personal_infor" >????????</a></li>
+				<li ><a href="/kor/sitemap_15.do" >?????????</a></li>
+				<li ><a href="/kor/sitemap_16.do" >????</a></li>
+				<li ><a href="/kor/sitemap_17.do" >???????</a></li>
+				<li ><a href="http://www.alio.go.kr/management.do?p=organ02&p=pub_all&seq=C0175" target="_blank" title="??? ???? ??? ????? ?????." >???</a></li>
+				<li ><a href="http://www.koreatech.ac.kr/info.do" target="_blank" title="??? ???? ????????? ?????? ????? ?????." >??????</a></li>
+				<li ><a href="http://icee.koreatech.ac.kr/" target="_blank" title="??? ???? ???????? ????? ?????." >????????</a></li>
+                <li ><a href="http://ippone.koreatech.ac.kr/" target="_blank" title="??? ???? IPP?? ????? ?????." >IPP??</a></li>
+				<li ><a href="http://www.juso.go.kr/" target="_blank" title="??? ???? ??????? ????? ?????." >???????</a></li>
+			</ul>
+			<address >(31253) ???? ??? ??? ??? ??? 1600 (???, ?????????)   Tel. 041-560-1114</address>
+			<p class="copyright" >Copyright?2014 KOREATECH. All rights reserved.</p>
+		</div>	
+	</footer>	
+	<!-- //footer -->
+</div>
+
+
+
+<!--  ??? -->
+
+
+
+
+ 
+<div id="popup_content" name="popup_content" style="z-index:9999;" ></div>
+<link rel="stylesheet" href="/css/prog/popup.css" >
+
+
+ 
+
+<script >
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47858780-1', '220.68.64.77');
+  ga('send', 'pageview');
+ 
+</script>
+</body>
+</html>
