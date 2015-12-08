@@ -97,7 +97,7 @@ class PageParser(HTMLParser):
 
     def handle_entityref(self, name):
 
-        c = unichr(name2codepoint[name])
+        c = unicode(name2codepoint[name])
         self.html += unidecode(c)
 
 
@@ -157,7 +157,7 @@ class Page(object):
 
             parser = PageParser()
             parser.feed( r.read() )
-            html = parser.html.encode('ascii', 'replace')
+            html = parser.html.encode('utf-8')
             f.write( html )
             f.close()
 
